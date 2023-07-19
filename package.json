@@ -1,0 +1,25 @@
+{
+  "name": "projeto-livre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.4.0",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^3.0.1",
+    "swagger-autogen": "^2.23.5",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
