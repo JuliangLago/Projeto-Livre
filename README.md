@@ -4,21 +4,19 @@ Meu projeto tem o objetivo de catalogar e listar os animais da minha casa.
 
 ## Instalação
 
-Para instalar
+- Fork esse repositório
+- Faça o clone do repositório forkado na sua máquina (Para isso basta abrir o seu terminal e digitar git clone url-do-seu-repositorio-forkado)
+- Entre na pasta do seu repositório
+- Abra o VScode (Para isso basta digitar code .)
 
 ## Uso
 
-Explique como usar o projeto e forneça exemplos, comandos ou capturas de tela, se aplicável.
+Usando o postman como cliente, podemos pesquisar por todos os animais ou por id, além de poder adicionar novos para o catalogo e editar, claro, excluir também.
 
-## Contribuição
-
-Indique como outros desenvolvedores podem contribuir com o projeto. Isso pode incluir informações sobre como reportar problemas, solicitar novos recursos ou enviar pull requests.
-
-## Licença
-
-Informe a licença do projeto, caso exista.
+## Tecnologias
+Aqui foi usado as API, express, cors, dotenv, mongose, nodemon, swagger e NodeJs
 
 ## Contato
 
-Forneça informações de contato para os mantenedores do projeto, como e-mail ou links para redes sociais.
+email: juliangdolago@gmail.com
 
