@@ -14,7 +14,7 @@ Meu projeto tem o objetivo de catalogar e listar os animais da minha casa.
 Usando o postman como cliente, podemos pesquisar por todos os animais ou por id, além de poder adicionar novos para o catalogo e editar, claro, excluir também.
 
 ## Tecnologias
-Aqui foi usado as API, express, cors, dotenv, mongose, nodemon, swagger e NodeJs
+Aqui foi usado as API, express, cors, dotenv, mongose, nodemon, swagger.
 
 ## Contato
 
