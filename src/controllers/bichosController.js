@@ -27,9 +27,7 @@ const addNewBicho = async (req, res) => {
         aniversario,
         idade,
         especie,
-        sexo,
-        tomaRemedio,
-        qualRemedio
+        sexo
       } = req.body;
   
       const newBicho = new bichosModel({
@@ -38,9 +36,7 @@ const addNewBicho = async (req, res) => {
         aniversario,
         idade,
         especie,
-        sexo,
-        tomaRemedio,
-        qualRemedio
+        sexo
       });
       const savedBicho = await newBicho.save();
       res
@@ -59,9 +55,7 @@ const addNewBicho = async (req, res) => {
         aniversario,
         idade,
         especie,
-        sexo,
-        tomaRemedio,
-        qualRemedio
+        sexo
       } = req.body;
       const updateBicho = await bichosModel.findByIdAndUpdate(
         req.params.id,
@@ -70,9 +64,7 @@ const addNewBicho = async (req, res) => {
         aniversario,
         idade,
         especie,
-        sexo,
-        tomaRemedio,
-        qualRemedio
+        sexo
         }
       );
       res.status(200).json(updateBicho);

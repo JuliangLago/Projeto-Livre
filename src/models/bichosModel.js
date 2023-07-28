@@ -23,13 +23,6 @@ const BichoSchema = new mongoose.Schema(
     sexo: {
       type: String,
       required: true,
-    },
-    tomaRemedio: {
-      type: Boolean,
-      required: true,
-    },
-    qualRemedio: {
-      trype: String,
     }
   }
 );
